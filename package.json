@@ -1,0 +1,19 @@
+{
+  "name": "atividade-05",
+  "version": "1.0.0",
+  "description": "Aula 05 - Mensageria, filas e pub/sub com RabbitMQ",
+  "main": "producer.js",
+  "scripts": {
+    "producer": "node producer.js",
+    "consumer": "node consumer.js",
+    "dlq": "node consumer-dlq.js",
+    "evento": "node publicar-evento.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "amqplib": "^2.2.0"
+  }
+}
